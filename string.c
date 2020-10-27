@@ -40,10 +40,10 @@ void reverseWords(char* s)
     reverse(s, temp - 1); 
 } 
   
-// Driver Code 
+
 int main() 
 { 
-    char s[] = "i like this program very much"; 
+    char s[] = "i like programming"; 
     char* temp = s; 
     reverseWords(s); 
     printf("%s", s); 
